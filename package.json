@@ -1,0 +1,40 @@
+{
+  "name": "firmata",
+  "description": "A library to control an arduino running firmata",
+  "version": "0.5.5",
+  "author": "Julian Gautier",
+  "homepage": "http://www.github.com/jgautier/firmata",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jgautier/firmata.git"
+  },
+  "main": "lib/firmata",
+  "bin": {
+    "firmata": "./repl.js"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-jsbeautifier": "~0.2.7",
+    "grunt-jscs": "~0.8.1",
+    "grunt-mocha-test": "~0.2.2",
+    "johnny-five": "^0.8.62",
+    "mocha": ">=0.13.x",
+    "rewire": "~2.1.2",
+    "should": ">=0.5.x",
+    "sinon": "~1.11.1"
+  },
+  "dependencies": {
+    "browser-serialport": "*",
+    "es6-map": "~0.1.1",
+    "object-assign": "~1.0.0",
+    "serialport": ">=0.7.5"
+  },
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "grunt"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
